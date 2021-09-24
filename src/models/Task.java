@@ -14,7 +14,7 @@ import javax.persistence.Table;
 @Entity
 @NamedQueries({
     @NamedQuery(
-        name = "getAllMessages",
+        name = "getAllTasks",
         query = "SELECT m FROM Task AS m ORDER BY m.id DESC"
     )
 })
@@ -67,9 +67,4 @@ public class Task {
     public void setUpdated_at(Timestamp updated_at) {
         this.updated_at = updated_at;
     }
-
-
-
-
-
 }
