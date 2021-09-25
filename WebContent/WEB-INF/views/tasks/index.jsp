@@ -33,7 +33,7 @@
             </c:forEach>
         </div>
 
-        <p><a href="${pageContext.request.contextPath}/new">新規メッセージの入力</a></p>
+        <p><a href="${pageContext.request.contextPath}/new">新規タスクの入力</a></p>
 
     </c:param>
 </c:import>
